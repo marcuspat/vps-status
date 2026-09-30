@@ -1,0 +1,66 @@
+{
+ "plane": "rigplane",
+ "reported_at": "2026-09-30T23:32:48Z",
+ "gateway": "active",
+ "openclaw": "OpenClaw 2026.9.7 (c074824)",
+ "uptime": "1 day, 21 hours, 28 minutes",
+ "disk_pct": 34,
+ "load": 1.61,
+ "monitor": "ok",
+ "jobs": [
+  {
+   "name": "Heartbeat (main)",
+   "schedule": "every 30 min",
+   "last": "09-30 23:12",
+   "status": "ok"
+  },
+  {
+   "name": "Estate watchdog (read-only)",
+   "schedule": "every 120 min",
+   "last": "09-30 22:42",
+   "status": "ok"
+  },
+  {
+   "name": "Memory Dreaming Promotion",
+   "schedule": "?",
+   "last": null,
+   "status": "idle"
+  },
+  {
+   "name": "Nightly stats snapshot (dashboard feed)",
+   "schedule": "?",
+   "last": null,
+   "status": "idle"
+  },
+  {
+   "name": "PR sweep backup (read-only)",
+   "schedule": "?",
+   "last": "09-30 15:15",
+   "status": "ok"
+  },
+  {
+   "name": "Hub+feed backup build",
+   "schedule": "?",
+   "last": "09-30 20:42",
+   "status": "ok"
+  },
+  {
+   "name": "Skill collection review (main)",
+   "schedule": "every 10080 min",
+   "last": null,
+   "status": "idle"
+  },
+  {
+   "name": "Upwork Plus cycle reminder",
+   "schedule": "?",
+   "last": null,
+   "status": "idle"
+  },
+  {
+   "name": "PRD-10 Conekta hold-lift ping",
+   "schedule": "?",
+   "last": null,
+   "status": "idle"
+  }
+ ]
+}

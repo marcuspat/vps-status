@@ -1,23 +1,23 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-01T15:10:18Z",
+ "reported_at": "2026-10-01T15:15:17Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "2 days, 13 hours, 5 minutes",
+ "uptime": "2 days, 13 hours, 10 minutes",
  "disk_pct": 34,
- "load": 2.82,
+ "load": 1.95,
  "monitor": "ok",
  "jobs": [
-  {
-   "name": "Heartbeat (main)",
-   "schedule": "every 30 min",
-   "last": "10-01 14:42",
-   "status": "ok"
-  },
   {
    "name": "PR sweep backup (read-only)",
    "schedule": "?",
    "last": "09-30 15:15",
+   "status": "ok"
+  },
+  {
+   "name": "Heartbeat (main)",
+   "schedule": "every 30 min",
+   "last": "10-01 15:12",
    "status": "ok"
   },
   {

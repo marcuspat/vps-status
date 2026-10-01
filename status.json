@@ -1,11 +1,66 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-01T22:26:28Z",
+ "reported_at": "2026-10-01T22:30:23Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "2 days, 20 hours, 21 minutes",
+ "uptime": "2 days, 20 hours, 25 minutes",
  "disk_pct": 34,
- "load": 3.57,
- "monitor": "gateway RPC unreachable",
- "jobs": []
+ "load": 2.62,
+ "monitor": "ok",
+ "jobs": [
+  {
+   "name": "Estate watchdog (read-only)",
+   "schedule": "every 120 min",
+   "last": "10-01 20:42",
+   "status": "ok"
+  },
+  {
+   "name": "Heartbeat (main)",
+   "schedule": "every 30 min",
+   "last": "10-01 22:15",
+   "status": "ok"
+  },
+  {
+   "name": "Memory Dreaming Promotion",
+   "schedule": "?",
+   "last": "10-01 01:00",
+   "status": "ok"
+  },
+  {
+   "name": "Nightly stats snapshot (dashboard feed)",
+   "schedule": "?",
+   "last": "10-01 05:50",
+   "status": "ok"
+  },
+  {
+   "name": "Skill collection review (main)",
+   "schedule": "every 10080 min",
+   "last": null,
+   "status": "idle"
+  },
+  {
+   "name": "PR sweep backup (read-only)",
+   "schedule": "?",
+   "last": "10-01 15:15",
+   "status": "error"
+  },
+  {
+   "name": "Hub+feed backup build",
+   "schedule": "?",
+   "last": "10-01 16:20",
+   "status": "ok"
+  },
+  {
+   "name": "Upwork Plus cycle reminder",
+   "schedule": "?",
+   "last": null,
+   "status": "idle"
+  },
+  {
+   "name": "PRD-10 Conekta hold-lift ping",
+   "schedule": "?",
+   "last": null,
+   "status": "idle"
+  }
+ ]
 }

@@ -1,23 +1,23 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-01T16:10:21Z",
+ "reported_at": "2026-10-01T16:15:17Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "2 days, 14 hours, 5 minutes",
+ "uptime": "2 days, 14 hours, 10 minutes",
  "disk_pct": 34,
- "load": 2.4,
+ "load": 1.65,
  "monitor": "ok",
  "jobs": [
-  {
-   "name": "Heartbeat (main)",
-   "schedule": "every 30 min",
-   "last": "10-01 15:42",
-   "status": "ok"
-  },
   {
    "name": "Hub+feed backup build",
    "schedule": "?",
    "last": "09-30 20:42",
+   "status": "ok"
+  },
+  {
+   "name": "Heartbeat (main)",
+   "schedule": "every 30 min",
+   "last": "10-01 16:12",
    "status": "ok"
   },
   {

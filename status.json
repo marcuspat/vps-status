@@ -1,19 +1,13 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-02T16:20:12Z",
+ "reported_at": "2026-10-02T16:25:07Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "3 days, 14 hours, 15 minutes",
+ "uptime": "3 days, 14 hours, 20 minutes",
  "disk_pct": 34,
- "load": 1.78,
+ "load": 0.54,
  "monitor": "ok",
  "jobs": [
-  {
-   "name": "Hub+feed backup build",
-   "schedule": "?",
-   "last": "10-01 16:20",
-   "status": "ok"
-  },
   {
    "name": "Estate watchdog (read-only)",
    "schedule": "every 120 min",
@@ -42,6 +36,12 @@
    "name": "PR sweep backup (read-only)",
    "schedule": "?",
    "last": "10-02 15:15",
+   "status": "ok"
+  },
+  {
+   "name": "Hub+feed backup build",
+   "schedule": "?",
+   "last": "10-02 16:20",
    "status": "ok"
   },
   {

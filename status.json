@@ -1,19 +1,13 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-02T10:05:08Z",
+ "reported_at": "2026-10-02T10:10:07Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "3 days, 8 hours, 0 minutes",
+ "uptime": "3 days, 8 hours, 5 minutes",
  "disk_pct": 34,
- "load": 1.13,
+ "load": 0.88,
  "monitor": "ok",
  "jobs": [
-  {
-   "name": "Skill collection review (main)",
-   "schedule": "every 10080 min",
-   "last": null,
-   "status": "idle"
-  },
   {
    "name": "Heartbeat (main)",
    "schedule": "every 30 min",
@@ -48,6 +42,12 @@
    "name": "Nightly stats snapshot (dashboard feed)",
    "schedule": "?",
    "last": "10-02 05:50",
+   "status": "ok"
+  },
+  {
+   "name": "Skill collection review (main)",
+   "schedule": "every 10080 min",
+   "last": "10-02 10:06",
    "status": "ok"
   },
   {

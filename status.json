@@ -1,11 +1,11 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-04T23:00:09Z",
+ "reported_at": "2026-10-04T23:05:07Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "5 days, 20 hours, 55 minutes",
+ "uptime": "5 days, 21 hours, 0 minutes",
  "disk_pct": 35,
- "load": 0.72,
+ "load": 1.13,
  "monitor": "ok",
  "jobs": [
   {

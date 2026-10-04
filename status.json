@@ -1,23 +1,23 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-04T05:45:08Z",
+ "reported_at": "2026-10-04T05:50:09Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "5 days, 3 hours, 40 minutes",
+ "uptime": "5 days, 3 hours, 45 minutes",
  "disk_pct": 35,
- "load": 0.46,
+ "load": 1.09,
  "monitor": "ok",
  "jobs": [
-  {
-   "name": "Heartbeat (main)",
-   "schedule": "every 30 min",
-   "last": "10-04 05:15",
-   "status": "ok"
-  },
   {
    "name": "Nightly stats snapshot (dashboard feed)",
    "schedule": "?",
    "last": "10-03 05:50",
+   "status": "ok"
+  },
+  {
+   "name": "Heartbeat (main)",
+   "schedule": "every 30 min",
+   "last": "10-04 05:45",
    "status": "ok"
   },
   {

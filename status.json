@@ -1,19 +1,13 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-05T14:40:07Z",
+ "reported_at": "2026-10-05T14:45:08Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "6 days, 12 hours, 35 minutes",
+ "uptime": "6 days, 12 hours, 40 minutes",
  "disk_pct": 35,
- "load": 1.02,
+ "load": 0.94,
  "monitor": "ok",
  "jobs": [
-  {
-   "name": "Estate watchdog (read-only)",
-   "schedule": "every 120 min",
-   "last": "10-05 12:42",
-   "status": "ok"
-  },
   {
    "name": "Heartbeat (main)",
    "schedule": "every 30 min",
@@ -30,6 +24,12 @@
    "name": "Hub+feed backup build",
    "schedule": "?",
    "last": "10-02 16:20",
+   "status": "ok"
+  },
+  {
+   "name": "Estate watchdog (read-only)",
+   "schedule": "every 120 min",
+   "last": "10-05 14:42",
    "status": "ok"
   },
   {

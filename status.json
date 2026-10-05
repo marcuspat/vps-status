@@ -1,19 +1,13 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-05T01:00:10Z",
+ "reported_at": "2026-10-05T01:05:08Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "5 days, 22 hours, 55 minutes",
+ "uptime": "5 days, 23 hours, 0 minutes",
  "disk_pct": 35,
- "load": 1.3,
+ "load": 0.88,
  "monitor": "ok",
  "jobs": [
-  {
-   "name": "Memory Dreaming Promotion",
-   "schedule": "?",
-   "last": "10-04 01:00",
-   "status": "ok"
-  },
   {
    "name": "Heartbeat (main)",
    "schedule": "every 30 min",
@@ -42,6 +36,12 @@
    "name": "Hub+feed backup build",
    "schedule": "?",
    "last": "10-02 16:20",
+   "status": "ok"
+  },
+  {
+   "name": "Memory Dreaming Promotion",
+   "schedule": "?",
+   "last": "10-05 01:00",
    "status": "ok"
   },
   {

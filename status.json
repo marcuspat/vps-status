@@ -1,23 +1,23 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-06T10:15:08Z",
+ "reported_at": "2026-10-06T10:20:12Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "1 week, 8 hours, 10 minutes",
+ "uptime": "1 week, 8 hours, 15 minutes",
  "disk_pct": 35,
- "load": 0.59,
+ "load": 0.94,
  "monitor": "ok",
  "jobs": [
-  {
-   "name": "Heartbeat (main)",
-   "schedule": "every 30 min",
-   "last": "10-06 09:45",
-   "status": "ok"
-  },
   {
    "name": "Estate watchdog (read-only)",
    "schedule": "every 120 min",
    "last": "10-06 08:42",
+   "status": "ok"
+  },
+  {
+   "name": "Heartbeat (main)",
+   "schedule": "every 30 min",
+   "last": "10-06 10:15",
    "status": "ok"
   },
   {

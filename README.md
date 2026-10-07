@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="vps-status — animated banner" width="100%"></p>
+
 # vps-status
 
 Public heartbeat JSON (status.json) for the rigplane VPS lane. Updated every

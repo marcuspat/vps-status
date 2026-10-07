@@ -1,17 +1,17 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-07T05:15:08Z",
+ "reported_at": "2026-10-07T05:20:11Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "1 week, 1 day, 3 hours, 10 minutes",
+ "uptime": "1 week, 1 day, 3 hours, 15 minutes",
  "disk_pct": 37,
- "load": 1.01,
+ "load": 0.58,
  "monitor": "ok",
  "jobs": [
   {
    "name": "Heartbeat (main)",
    "schedule": "every 30 min",
-   "last": "10-07 04:45",
+   "last": "10-07 05:15",
    "status": "ok"
   },
   {

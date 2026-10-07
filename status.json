@@ -1,19 +1,13 @@
 {
  "plane": "rigplane",
- "reported_at": "2026-10-07T05:50:07Z",
+ "reported_at": "2026-10-07T05:55:08Z",
  "gateway": "active",
  "openclaw": "OpenClaw 2026.9.7 (c074824)",
- "uptime": "1 week, 1 day, 3 hours, 45 minutes",
+ "uptime": "1 week, 1 day, 3 hours, 50 minutes",
  "disk_pct": 37,
- "load": 0.86,
+ "load": 0.56,
  "monitor": "ok",
  "jobs": [
-  {
-   "name": "Nightly stats snapshot (dashboard feed)",
-   "schedule": "?",
-   "last": "10-06 05:50",
-   "status": "ok"
-  },
   {
    "name": "Heartbeat (main)",
    "schedule": "every 30 min",
@@ -42,6 +36,12 @@
    "name": "Memory Dreaming Promotion",
    "schedule": "?",
    "last": "10-07 01:00",
+   "status": "ok"
+  },
+  {
+   "name": "Nightly stats snapshot (dashboard feed)",
+   "schedule": "?",
+   "last": "10-07 05:50",
    "status": "ok"
   },
   {
